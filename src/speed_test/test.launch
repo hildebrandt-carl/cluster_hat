@@ -1,0 +1,9 @@
+<launch>
+    <node name="addition0" pkg="speed_test" type="calculation_speed_exe" output="screen" args="addition0"/>
+    <node name="addition1" pkg="speed_test" type="calculation_speed_exe" output="screen" args="addition1"/>
+    <node name="addition2" pkg="speed_test" type="calculation_speed_exe" output="screen" args="addition2"/>
+    <node name="addition3" pkg="speed_test" type="calculation_speed_exe" output="screen" args="addition3"/>
+
+    <node name="controller" pkg="speed_test" type="controller_speed_exe" output="screen" args="controller"/>
+controller
+</launch>

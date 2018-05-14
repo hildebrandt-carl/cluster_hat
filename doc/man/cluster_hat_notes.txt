@@ -1,0 +1,17 @@
+For the Pi Cluster, I found the following commands from this blog:
+https://groups.google.com/forum/#!msg/clusterhat/vepMuwpfaXI/eQJicOboAAAJ
+
+In that blog, they mentioned the following commands:
+
+To turn on a cluster Pi (this enables SSH'ing to the individual Zero's, and it turns on the power LED on the cluster):
+clusterhat on p1
+clusterhat on p2
+clusterhat on p3
+clusterhat on p4
+
+To SSH from the controller Pi to a cluster Pi:
+ssh pi@pi1.local
+ssh pi@pi2.local
+ssh pi@pi3.local
+ssh pi@pi4.local
+

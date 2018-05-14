@@ -1,0 +1,13 @@
+<launch>
+
+    <node name="processor0" pkg="image_processing_ros" type="processor_imgpro_exe" output="screen" args="processor0"/>
+    <node name="processor1" pkg="image_processing_ros" type="processor_imgpro_exe" output="screen" args="processor1"/>
+
+    <node name="controller" pkg="image_processing_ros" type="controller_imgpro_exe" output="screen" args="controller">
+        <param name="total_processors" type="string" value="16"/>
+        <param name="save_dir" type="string" value="/home/pi/ims/"/>
+        <param name="send_delay" type="string" value="0.5"/>
+        <param name="namespace" type="string"  value="$(env USER)"/>
+        <param name="image_name" type="string" value="/home/pi/catkin_ws2/src/cluster_hat/src/image_processing_ros/example3.jpg"/>
+    </node>
+</launch>
