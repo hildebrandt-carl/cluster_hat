@@ -15,15 +15,15 @@ The cluster was setup instructions can be found here: [Setup](https://clusterhat
 
 ## Documents
 
-* [CPU SPEC 2006](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/doc/CPUSPEC.md) – The initial benchmark tested. (Not complete)
-* [HPC Challenge Benchmark](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/doc/HPC.md) – The final benchmark used.
-* [ROS Installation](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/doc/ROS.md) – The software environment used for real life testing.
+* [CPU SPEC 2006](https://github.com/hildebrandt-carl/cluster_hat/blob/master/doc/CPUSPEC.md) – The initial benchmark tested. (Not complete)
+* [HPC Challenge Benchmark](https://github.com/hildebrandt-carl/cluster_hat/blob/master/doc/HPC.md) – The final benchmark used.
+* [ROS Installation](https://github.com/hildebrandt-carl/cluster_hat/blob/master/doc/ROS.md) – The software environment used for real life testing.
 
 ## Authors
 
-* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://git.unl.edu/hildebrandt.carl)
+* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://github.com/hildebrandt-carl)
 * **William Turner** - *Initial work* - [william.turner](https://git.unl.edu/william.turner)
-* **Molly Lee** - *Initial work* - [TODO](NA)
-* **Casey Lafferty** - *Initial work* - [TODO](NA)
+* **Molly Lee** - *Group Member*
+* **Casey Lafferty** - *Group Member*
 
 

@@ -6,15 +6,15 @@ The following are programs used for testing the Raspberry Pi. All programs outpu
 
 ## Programs
 
-* [Image Processing](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/src/image_prcocessing/) – This is a stand alone C++ program which does numerous image processing techniques on an image.
-* [Image Processing ROS](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/src/image_prcocessing_ros/) – This implements the same image processing techniques used in the image processing program inside a ROS environment. The program is developed in such a way that the original image is split up onto mutliple processor nodes.
-* [Speed Test](https://git.unl.edu/pi_cluster_csce830/cluster_hat/blob/master/src/speed_test/) – This is a program which uses the same ROS architecture as the image processing ROS implementation. However instread of doing image processing tasks, this one does many floating point operations. 
+* [Image Processing](https://github.com/hildebrandt-carl/cluster_hat/tree/master/src/image_prcocessing/) – This is a stand alone C++ program which does numerous image processing techniques on an image.
+* [Image Processing ROS](https://github.com/hildebrandt-carl/cluster_hat/tree/master/src/image_prcocessing_ros/) – This implements the same image processing techniques used in the image processing program inside a ROS environment. The program is developed in such a way that the original image is split up onto mutliple processor nodes.
+* [Speed Test](https://github.com/hildebrandt-carl/cluster_hat/tree/master/src/speed_test/) – This is a program which uses the same ROS architecture as the image processing ROS implementation. However instread of doing image processing tasks, this one does many floating point operations. 
 
 ## Authors
 
-* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://git.unl.edu/hildebrandt.carl)
+* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://github.com/hildebrandt-carl)
 * **William Turner** - *Initial work* - [william.turner](https://git.unl.edu/william.turner)
-* **Molly Lee** - *Initial work* - [TODO](NA)
-* **Casey Lafferty** - *Initial work* - [TODO](NA)
+* **Molly Lee** - *Group Member*
+* **Casey Lafferty** - *Group Member*
 
 

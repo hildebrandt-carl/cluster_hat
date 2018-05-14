@@ -40,7 +40,7 @@ sudo apt-get install libopencv-dev
 
 ## Authors
 
-* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://git.unl.edu/hildebrandt.carl)
+* **Carl Hildebrandt** - *Initial work* - [hildebrandt.carl](https://github.com/hildebrandt-carl)
 * **William Turner** - *Initial work* - [william.turner](https://git.unl.edu/william.turner)
-* **Molly Lee** - *Initial work* - [TODO](NA)
-* **Casey Lafferty** - *Initial work* - [TODO](NA)
+* **Molly Lee** - *Group Member*
+* **Casey Lafferty** - *Group Member*
