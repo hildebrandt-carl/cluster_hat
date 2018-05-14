@@ -1,0 +1,10 @@
+This program was using the exact same architecture as phase 2. It was a controller node with 16 processor nodes. These nodes did an expensive operation which was to add 1.1 to a number 1000^3 times.
+
+When the computation was complete the processor node would return a complete message to the controller node, and would then begin to continue processing. The controller node would then count how many completes were done and it would stop all nodes when 100 complete messages were done. Thus a total of 1000^3 * 100 floating point operations were done in total.
+
+It should be noted that 16 is not divisible by 100 thus if you run 16 processor nodes, some of them will be doing useless processing at the end. Because only after the 100th message is received do they get told to stop.
+
+Thus if I do 1 processor node, no overshoot occurred but nothing was run in parallel. If I do 4 in parallel at worst I do 3 operations more than I should but I only am able to parallelize 4 operations. This can be extended for the more nodes I do.
+
+The number before the results is an example of how many nodes were used to do the processing.
+

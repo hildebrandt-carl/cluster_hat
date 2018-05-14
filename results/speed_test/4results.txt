@@ -1,0 +1,20 @@
+Run 1
+CPU Time taken: 0.122676Wall Time taken: 110.674
+Run 2
+CPU Time taken: 0.118865Wall Time taken: 115.758
+Run 3
+CPU Time taken: 0.078455Wall Time taken: 102.561
+Run 4
+CPU Time taken: 0.128638Wall Time taken: 109.581
+Run 5
+CPU Time taken: 0.110008Wall Time taken: 108.124
+Run 6
+CPU Time taken: 0.08863Wall Time taken: 106.761
+Run 7
+CPU Time taken: 0.109385Wall Time taken: 106.644
+Run 8
+CPU Time taken: 0.110455Wall Time taken: 105.595
+Run 9
+CPU Time taken: 0.096324Wall Time taken: 106.52
+Run 10
+CPU Time taken: 0.089927Wall Time taken: 103.144

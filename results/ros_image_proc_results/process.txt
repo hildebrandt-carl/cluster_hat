@@ -1,0 +1,15 @@
+This test does the following:
+
+It sets up a controller and a processor. The processor is a single set of code which can be launched multiple times. The controller launches sents an activate and prime message to all launched nodes. This starts each of the processors nodes and loads the image transport library (as images have to be transported over tcp and thus need to be serialized and deserialized).
+
+The controller then preloads a 4k image (3840 × 2160) pixels.
+
+The controller node then starts the CPU and wall timers.
+
+The controller then needs to take the image and breaks it up into smaller images. If we launch 4 processor nodes this looks like (Raw_split4) if we launch 16 processors this looks like (Raw_split16).
+
+The controller then sends each of these images to a processor node. We however have to wait 0.05 seconds between each send. A solution to this problem would be to create multiple TCP channels to each of the processor nodes, however currently they all share a single TCP channel connection between the controller and processor nodes. This can be thought of having a shared bus. (Right now I send a message with an image and a processor node name). The shared TCP channel is a major draw back for the wall clock time as having to wait 0.05 seconds between each message send adds up quickly.
+
+Once all the information has been offloaded onto the processors they begin doing the expensive operation (the image processing). They then return the images.
+
+Once the controller has received all images back it stops the timer and displays the time. It also saves all the images so we can see them (however this is after the timer has stopped). This was done because in all versions of software the timers are started after loading the image, and stoped after processing the image. The image is then only saved or displayed.
